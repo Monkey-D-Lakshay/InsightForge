@@ -1,0 +1,127 @@
+# Business Requirements Document (BRD)
+
+## 1. Project Overview
+
+InsightForge is an Enterprise Retail Analytics Platform built for a fictional e-commerce company called InsightMart.
+
+The platform aims to collect raw business data, transform it through an ETL pipeline, store it in a PostgreSQL data warehouse, and provide business insights through SQL analytics and Power BI dashboards.
+
+---
+
+## 2. Company Background
+
+InsightMart is a multinational online retail marketplace that connects customers with independent sellers.
+
+The company operates across multiple regions and processes thousands of customer orders every day.
+
+Different departments currently maintain separate reports, leading to inconsistent KPIs and delayed business decisions.
+
+---
+
+## 3. Business Problem
+
+Operational data is scattered across different systems.
+
+Because of this:
+
+- Different teams report different revenue numbers.
+- Customer information is inconsistent.
+- Business reports take too long to generate.
+- Executives lack a single source of truth.
+
+The company needs a centralized analytics platform.
+
+---
+
+## 4. Stakeholders
+
+- CEO
+- Sales Manager
+- Marketing Manager
+- Operations Manager
+- Finance Team
+- Product Team
+- Seller Management Team
+
+---
+
+## 5. Business Objectives
+
+The project should help the business:
+
+- Centralize business data.
+- Build a reliable data warehouse.
+- Standardize KPIs.
+- Monitor sales performance.
+- Analyze customer behavior.
+- Improve delivery performance.
+- Support strategic business decisions.
+
+---
+
+## 6. Key Business Questions
+
+Sales
+
+- What is the monthly revenue?
+- Which product categories generate the highest revenue?
+- Which regions perform best?
+
+Customers
+
+- How many new customers joined each month?
+- What is the repeat purchase rate?
+- Who are the most valuable customers?
+
+Products
+
+- Which products generate the highest profit?
+- Which products should be discontinued?
+
+Sellers
+
+- Which sellers perform the best?
+- Which sellers have high cancellation rates?
+
+Logistics
+
+- Average delivery time
+- Late delivery percentage
+- On-time delivery rate
+
+---
+
+## 7. Key Performance Indicators (KPIs)
+
+Revenue KPIs
+
+- Total Revenue
+- Monthly Revenue Growth
+- Average Order Value
+
+Customer KPIs
+
+- Customer Lifetime Value
+- Repeat Purchase Rate
+- Customer Retention Rate
+
+Product KPIs
+
+- Best Selling Products
+- Category Revenue Contribution
+
+Seller KPIs
+
+- Seller Rating
+- Cancellation Rate
+
+Logistics KPIs
+
+- Average Delivery Time
+- Late Delivery Rate
+
+Executive KPIs
+
+- Total Orders
+- Total Customers
+- Total Profit
