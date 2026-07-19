@@ -1,8 +1,31 @@
 # InsightForge — E-Commerce Analytics Platform
 
-An end-to-end e-commerce analytics project built using Python, PostgreSQL, SQL, and Power BI.
+> An end-to-end e-commerce analytics platform that transforms raw transactional data into actionable business insights using Python, PostgreSQL, Advanced SQL, and Power BI.
 
-InsightForge transforms raw e-commerce transaction data into a structured analytical warehouse and an interactive business intelligence dashboard for understanding sales performance, customer behavior, products, sellers, payments, and delivery trends.
+## 📊 Dashboard Preview
+
+### Executive Overview
+
+![InsightForge Dashboard Overview](docs/screenshots/dashboard_overview_01.png)
+
+### Interactive Business Analysis
+
+![InsightForge Dashboard Analysis](docs/screenshots/dashboard_overview_02.png)
+
+---
+
+## 🚀 Interactive Power BI Dashboard
+
+The screenshots above provide a quick preview of the analytics platform.
+
+The complete Power BI report is available as a `.pbix` file in the `dashboards/` directory for users who want to explore the interactive slicers, filters, drill-through pages, and other Power BI features using Power BI Desktop.
+
+---
+
+## 🔍 Key Business Insights
+
+*Business insights are derived directly from the PostgreSQL data warehouse and will be documented here after validation through analytical SQL queries.*
+---
 
 ---
 
