@@ -1,13 +1,18 @@
+import os
 from sqlalchemy import create_engine
+from dotenv import load_dotenv
 
-DB_USER = "postgres"
-DB_PASSWORD = "2007"
-DB_HOST = "localhost"
-DB_PORT = "5432"
-DB_NAME = "insightforge_dw"
+load_dotenv()
+
+DB_USER = os.getenv("DB_USER", "postgres")
+DB_PASSWORD = os.getenv("DB_PASSWORD")
+DB_HOST = os.getenv("DB_HOST", "localhost")
+DB_PORT = os.getenv("DB_PORT", "5432")
+DB_NAME = os.getenv("DB_NAME", "insightforge_dw")
 
 DATABASE_URL = (
-    f"postgresql://{DB_USER}:{DB_PASSWORD}@{DB_HOST}:{DB_PORT}/{DB_NAME}"
+    f"postgresql://{DB_USER}:{DB_PASSWORD}@"
+    f"{DB_HOST}:{DB_PORT}/{DB_NAME}"
 )
 
 engine = create_engine(DATABASE_URL)
