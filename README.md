@@ -6,12 +6,10 @@
 
 ### Executive Overview
 
-![InsightForge Dashboard Overview](docs/screenshots/dashboard_overview_01.png)
-
+![InsightForge Dashboard Overview](docs/screenshots/dashboard_overview_01.PNG)
 ### Interactive Business Analysis
 
-![InsightForge Dashboard Analysis](docs/screenshots/dashboard_overview_02.png)
-
+![InsightForge Dashboard Analysis](docs/screenshots/dashboard_overview_02.PNG)
 ---
 
 ## 🚀 Interactive Power BI Dashboard
